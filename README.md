@@ -1,5 +1,5 @@
 
-# 算法学习 以及 各种文档
+# 算法学习 以及 各种文档（别人的！改了puppeteer，留着自己学习）
 
 ![Ecmascript](./img/Javascript.gif)
 
