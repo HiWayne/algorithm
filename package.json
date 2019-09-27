@@ -1,0 +1,55 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "Learning algorithm",
+  "main": "main.ts",
+  "scripts": {
+    "ts": "tsc -w",
+    "build": "tsc -w",
+    "test": "jest --no-cache --config jest.config.json",
+    "webpack": "webpack --config webpack.config.js --watch-aggregate-timeout 1000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrTreasure/typescript-blank-project.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "MrTreasure",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrTreasure/typescript-blank-project/issues"
+  },
+  "homepage": "https://github.com/MrTreasure/typescript-blank-project#readme",
+  "devDependencies": {
+    "@types/fs-extra": "^5.0.1",
+    "@types/jest": "^22.1.1",
+    "@types/lru-cache": "^4.1.0",
+    "@types/reflect-metadata": "^0.1.0",
+    "jest": "^22.1.4",
+    "ts-jest": "^22.0.2",
+    "ts-loader": "^4.3.0",
+    "tslint": "^5.9.1",
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "^2.6.2",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "axios": "^0.18.1",
+    "chalk": "^2.3.2",
+    "fs": "0.0.1-security",
+    "fs-extra": "^5.0.0",
+    "koa": "^2.5.2",
+    "mobx": "^5.0.3",
+    "moment": "^2.22.2",
+    "mongodb": "^3.3.2",
+    "puppeteer": "^1.20.0",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.2.2",
+    "snabbdom": "^0.7.1",
+    "typeorm": "^0.2.7"
+  }
+}
