@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "amqplib": "^0.5.2",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "chalk": "^2.3.2",
     "fs": "0.0.1-security",
     "fs-extra": "^5.0.0",
